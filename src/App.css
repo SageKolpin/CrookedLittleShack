@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caprasimo&family=Playfair+Display&display=swap');
+
+
+
+#cursor {
+  cursor: url('./art/caret-down.png'), pointer;
+}
+.header{ 
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 90%;
+  transform: translate(-48%, -50%);
+  font-family: 'Barriecito', cursive;
+  font-size: 7em;
+  z-index: 1;
+}
+#co {
+  text-align: center;
+  margin-right: 25%;
+}
+
+#img1 {
+height: 46em;
+background-image: url('https://i.imgur.com/XUf3PCo.png');
+background-repeat: no-repeat;
+background-size: cover;
+animation-name: animation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+  0%{
+    background-image: url(https://i.imgur.com/XUf3PCo.png);
+  }
+  25%{
+    background-image: url(https://i.imgur.com/5p5cIS1.png);
+  }
+  50%{
+    background-image: url(https://i.imgur.com/UseXK61.png);
+  }
+  75%{
+    background-image: url(https://i.imgur.com/DKndxxn.png);
+  }
+  100%{
+    background-image: url(https://i.imgur.com/Cmr6r0T.png);
+  }
+}
+
+/* //////////////Section one ////////////// */
+
+.sec1 {
+  height: 50em;
+  text-align: center;
+  cursor: default;
+}
+
+#about {
+  text-align: center;
+  font-family: 'Barriecito', cursive;
+  font-size: 4em;
+  padding: .5em;
+  
+}
+
+.info1 {
+  font-size: 110%;
+  font-family: 'Playfair Display', serif;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#photos1 {
+  padding: 1em;
+  display: flex;
+}
+
+#threep {
+  margin: 1em;
+  width: 30em;
+}
+#coffee {
+ height: 25em;
+ margin-top: 7em;
+}
+
+#section { 
+  font-size: 110%;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2em;
+  width: 30em;
+  padding: 1em;
+}
+
+#about1 {
+  height: 7em;
+  font-family: 'Barriecito', cursive;
+  font-size: 5em;
+  padding: .5em;  
+  background-image: url('https://img.freepik.com/premium-photo/painting-palette-with-different-colors-paint-closeup_254845-30275.jpg?w=2000');
+  background-size: cover;
+  background-position: 10%;
+}
+
+#cards{
+  display: flex;
+}
+
+#eventcard {
+width: 5em;
+
+}
